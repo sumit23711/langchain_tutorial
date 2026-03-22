@@ -2,7 +2,10 @@
 langchain
 langchain-core
 
-# OpenAI Integration
+# OpenAI Integration model - gpt-5 mini
+# model="gpt-5-mini"
+# embedding="text-embedding-3-small"
+#
 langchain-openai
 openai
 
@@ -24,3 +27,7 @@ python-dotenv
 # Machine Learning Utilities
 numpy
 scikit-learn
+
+#pydantic
+pydantic
+pydantic[email]
